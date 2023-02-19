@@ -1,0 +1,79 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.chatContainer {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 600px; 
+  border: 2px solid rgba(0,150,255,0.1);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font: normal 14px/1 "Times New Roman", Times, serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  padding: 8px;
+  background:whitesmoke;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: green;
+}
+
+.bio {
+  text-align: center;
+  color: green;
+  margin: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.colourOwner {
+  text-align: left;
+  font-weight: 600;
+  color: blue;
+}
+
+.colourReceiver {
+  text-align: left;
+  font-weight: 600;
+  color: orange;
+}
+
+.timeReceiver{
+  text-align: right;
+  font-size: 80%;
+  color: orange;
+}
+
+
+.timeOwner{
+  text-align: right;
+  font-size: 80%;
+  color: blue;
+}
+
